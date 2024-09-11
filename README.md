@@ -4,12 +4,18 @@ This repository contains the source code and example data from Site I. The provi
 
 # Available Scripts
 ● 01_baselineModel: This script trains and evaluates the HSC, TSC, or CSC classifiers.
+
 ● 02_weighted: This script trains the weighted classifier as proposed in the accompanying research paper.
+
 ● utility_prepareData: Prepare data
+
 ● utility_prioCM: Restore confusion matrix of trusted samples in the history. 
+
 ● utility_trainInSeasonRF: Functions for trainning RF during mid-season.
+
 ● ICS Class: A Plug-and-Play Solution for Weighting
-	We provide an ICS class in the file ICS.py, which implements the weighting process as a plug-in for any 	classifier. For details on how to use it, please refer to the "02_weighted script". To apply this to a new 	region, simply prepare the data as described in the script and modify your classifier. This class supports 	both machine learning and deep learning classifiers with softmax output probabilities.
+
+	We provide an ICS class in the file ICS.py, which implements the weighting process as a plug-in for any classifier. For details on how to use it, please refer to the "02_weighted script". To apply this to a new 	region, simply prepare the data as described in the script and modify your classifier. This class supports both machine learning and deep learning classifiers with softmax output probabilities.
 
 # Environment Setup
 We test these scripts in following version:
