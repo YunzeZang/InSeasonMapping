@@ -15,7 +15,7 @@ This repository contains the source code and example data from Site I. The provi
 
 ● ICS Class: A Plug-and-Play Solution for Weighting
 
-	We provide an ICS class in the file ICS.py, which implements the weighting process as a plug-in for any classifier. For details on how to use it, please refer to the "02_weighted script". To apply this to a new 	region, simply prepare the data as described in the script and modify your classifier. This class supports both machine learning and deep learning classifiers with softmax output probabilities.
+We provide an ICS class in the file ICS.py, which implements the weighting process as a plug-in for any classifier. For details on how to use it, please refer to the "02_weighted script". To apply this to a new 	region, simply prepare the data as described in the script and modify your classifier. This class supports both machine learning and deep learning classifiers with softmax output probabilities.
 
 # Environment Setup
 We test these scripts in following version:
