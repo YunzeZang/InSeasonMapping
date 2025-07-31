@@ -1,4 +1,4 @@
-# Soruce code and example data for "Integrating classifier transfer and sample transfer strategies for in-season crop mapping based on sample weighting techniques"
+# Soruce code and data for "Integrating classifier transfer and sample transfer strategies for in-season crop mapping based on sample weighting techniques"
 
 This repository contains the source code and example data from Site I. The provided code allows for the repetition and evaluation of four classification methods: HSC, TSC, CSC, EWSC and the proposed OWSC.
 
@@ -30,7 +30,9 @@ The ICS class implements the weighting process as a plug-in for any classifier. 
 
 # Example data
 
-The example data is available at https://drive.google.com/file/d/1X3mj7xjg7j5suDdKehDBlXSAprl1rtrW/view?usp=sharing
+The example training data is available at https://drive.google.com/file/d/1X3mj7xjg7j5suDdKehDBlXSAprl1rtrW/view?usp=sharing
+
+The mapping results of OWSC in Sites I to VI is available at https://drive.google.com/file/d/1h-_AKzMXXZdTx7ih9Oknrn__TOdwhd6r/view?usp=sharing
 
 # How to use?
 1. Modify the file path in utility_prepareData.py. Make sure orgnize data using format in utility_prepareData.py
