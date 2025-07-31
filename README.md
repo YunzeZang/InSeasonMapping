@@ -5,16 +5,25 @@ This repository contains the source code and example data from Site I. The provi
 # Available Scripts
 
 Main scripts:
+
 ● Model_Baseline.py: This script trains the HSC, TSC, or CSC.
+
 ● Model_OWSC.py: This script trains the OWSC or EWSC.
+
 ● Evaluation.py: This script evaluates trained classifiers (support different classification mdoels and different methods).
 
 Utility scripts:
+
 ● utility_prepareData.py: Prepare data
+
 ● utility_prioCM.py: Load confusion matrix in the history and calculate the error rates of trusted samples. 
+
 ● utility_trainInSeasonRF.py: Functions for trainning RF and SVM during mid-season.
+
 ● utility_trainDL.py: Functions for trainning deep learning models during mid-season.
+
 ● ICS Class.py: A Plug-and-Play Solution for the proposed method
+
 ● prioCM.xlsx: file for saving confusion matrix, proportion of different type of rotation.
 
 The ICS class implements the weighting process as a plug-in for any classifier. For details on how to use it, please refer to the "02_weighted script". This class supports both machine learning and deep learning classifiers with softmax output probabilities.
