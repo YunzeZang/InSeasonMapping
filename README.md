@@ -28,7 +28,9 @@ Utility scripts:
 
 The ICS class implements the weighting process as a plug-in for any classifier. For details on how to use it, please refer to the "02_weighted script". This class supports both machine learning and deep learning classifiers with softmax output probabilities.
 
-# Example data
+# Google Earth Engine app for results visualization and example data
+
+We provide a GEE app for comparing mapping results of different methods across different sites and years (https://ee-zaggyunze.projects.earthengine.app/view/owsc)
 
 The example training data is available at https://drive.google.com/file/d/1X3mj7xjg7j5suDdKehDBlXSAprl1rtrW/view?usp=sharing
 
