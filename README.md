@@ -1,3 +1,6 @@
+
+</think>
+
 # Soruce code and data for "Integrating classifier transfer and sample transfer strategies for in-season crop mapping based on sample weighting techniques"
 
 This repository contains the source code and example data from Site I. The provided code allows for the repetition and evaluation of four classification methods: HSC, TSC, CSC, EWSC and the proposed OWSC.
@@ -10,7 +13,7 @@ Main scripts:
 
 ● Model_OWSC.py: This script trains the OWSC or EWSC.
 
-● Evaluation.py: This script evaluates trained classifiers (support different classification mdoels and different methods).
+● Evaluation.py: This script evaluates trained classifiers (supports different classification models and different methods).
 
 Utility scripts:
 
